@@ -30,23 +30,35 @@ ALARM_THRESHOLD = 10
 
 SCREEN_REFRESH_DELAY = 5
 
-# Species Setup
-speciesDetails = Reptile.ReptileDetails("Boa", 27, 65)
-
 
 def main():
-    sensorPin = 28
-    sensor = CreateSensor(sensorPin)
+    # Sensor Setup
+    boaSensorPin = 28
+    boaSensor = CreateSensor(boaSensorPin)
+    
+    # Species Setup
+    boaDetails = Reptile.ReptileDetails("Boa", 27, 30)
     
     while True:
-        DisplayInfo(speciesDetails)
+        DisplayInfo(boaDetails)
         PauseDisplayForRefreshDelay()
         
-        DisplayScreen("TEMPERATURE", sensor)
+        DisplayScreen("TEMPERATURE", boaSensor, boaDetails)
         PauseDisplayForRefreshDelay()
         
-        DisplayScreen("HUMIDITY", sensor)
+        DisplayScreen("HUMIDITY", boaSensor, boaDetails)
         PauseDisplayForRefreshDelay()
+        
+        # Additional sensors could be added to the system by creating new sensor pins, sensors
+        # Example: beardedDragonSensorPin = 27
+        #          beardedDragonSensor = CreateSensor(beardedDragonSensorPin)
+        #          beardedDragonbaskingSensorPin = 26
+        #          beardedDragonBaskingSensor = CreateSensor(beardedDragonbaskingSensorPin)
+        
+        # If the extra sensors are connected to the enclosures of different species, you can create
+        # different ReptileDetails for those species to get the specific ideal tempratures.
+        # Example: beardedDragonDetails = Reptile.ReptileDetails("beardedDragon", 27, 65)
+        #          beardedDragonBaskingDetails = Reptile.ReptileDetails("beardedDragon", 34, 65)
         
         # Future implimentation could be added to control mist machine or basking lamp
         # depending on warning levels.  Or send an SMS or email letting you know if the alert if you have the PicoW
