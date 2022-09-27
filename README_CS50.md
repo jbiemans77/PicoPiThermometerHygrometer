@@ -116,7 +116,7 @@ This modular implementation also makes adding future features really easy.  If s
 
 There is also room to add future expansions using other pins on the Pico Pi to control basking lamps, heating pads, mist generators, etc in order to automatically adjust the terrarium if an alarm or a warning is generated.  (for example, if an alarm is generated for the temperature being too low, it could trigger a heating pad to turn on through an external relay).
 
-Also, connecting an external Bluetooth module, or a Pico Pi W (with WIFI), and email could be sent, a notification sent to a phone or other device, or the data could be sent to an external webserver where a page could be generated to show the current status of various sensors at the same time. (this would probably only helpful for the larger scale options like pet stores)
+Also, connecting an external Bluetooth module, or a Pico Pi W (with WIFI), an email could be sent, a notification sent to a phone or other device, or the data could be sent to an external webserver where a page could be generated to show the current status of various sensors at the same time. (this would probably only helpful for the larger scale options like pet stores)
 
 <hr>
 
