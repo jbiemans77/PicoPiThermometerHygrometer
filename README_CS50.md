@@ -54,7 +54,7 @@ I created this as a class because I noticed that some of the code was duplicated
 <hr>
 
 ### main.py
-This is the main class that contains most of the logic.  I created a couple of global variables at the top of the file to hold most of the configuration details:
+This is the main program that contains most of the logic.  I created a couple of global variables at the top of the file to hold most of the configuration details:
 <p><b>SCREEN_WIDTH</b> - Number of characters across for the display (EX: 16)<br>
 <b>SCREEN_HEIGHT</b> Number of rows for the display (EX: 2)<br>
 <b>LCD</b> - This is an LCD object that will be used later to operate the screen.  <i>Usage - RGB1602.RGB1602(SCREEN_WIDTH,SCREEN_HEIGHT)</i><br>
