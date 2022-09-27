@@ -1,5 +1,8 @@
 <p># PicoPiThermometerHygrometer A Thermometer and Hygrometer for a Pico Pi to check climate of a terrarium.</p>
 
+# Pico Pi Thermometer / Hydrometer
+#### Video Demo: <URL>
+#### Description:
 <p>This is a project I created for the final assignment for CS50. It is a micropython program that runs on a Pico Pi. It reads the temprature and humidity data from a sensor, and then outputs that information to an LCD screen for easy viewing. There are also 3 thresholds that are fully customizable. By default, the settings are:</p>
 
 <p>Good = Ideal temprature +- 5 (degrees or %) - The screen will be green.</p>
@@ -35,14 +38,14 @@
 
 <p> BOM:</p>
 
-<p>Raspberry-Pi Pico - 8-10$</p>
-  https://www.pishop.ca/product/raspberry-pi-pico-w/</p>
+<p>Raspberry-Pi Pico - 8-10$
+<br>https://www.pishop.ca/product/raspberry-pi-pico-w/</p>
 
 <p>Waveshare LCD1602 RGB - 18$
-  https://www.waveshare.com/lcd1602-rgb-module.htm</p> 
+<br>https://www.waveshare.com/lcd1602-rgb-module.htm</p> 
   
 <p>KY-15 sensor - 3$
-  https://www.banggood.com/KY-015-DHT11-Temperature-Humidity-Sensor-Module-p-916173.html?cur_warehouse=CN</p>
+<br>https://www.banggood.com/KY-015-DHT11-Temperature-Humidity-Sensor-Module-p-916173.html?cur_warehouse=CN</p>
   
 <hr>
 
