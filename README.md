@@ -8,9 +8,14 @@ Warn = Ideal temprature +- 5-10 (degrees or %) - The screen will be amber.
 Alarm = Ideal temprature > 10 (degrees or %) - The screen will be red.
 
 Both the colors, and theresholds can be set in the global variables at the top of the program:
+
 GOOD_COLOR = [0,255,0]
+
 WARN_COLOR = [255,209,0]
+
 ALARM_COLOR = [255,0,0]
+
+
 
 WARNING_THRESHOLD = 5
 ALARM_THRESHOLD = 10
