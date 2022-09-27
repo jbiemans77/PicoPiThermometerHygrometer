@@ -49,7 +49,7 @@ This contains a class called <b>DisplayScreenDetails</b>.  This class is a conta
 <b>label</b> - This is the label to be shown on the screen. (EX: "Temp :" or "Humid:", etc)<br>
 <b>suffix</b> - This is the suffix to be shown on the screen. (EX: "C", "%", etc)<br>
 
-I created this as a class because I noticed that some of the most of the code was duplicated when I was creating the screens, so having this class allows me to reduce the duplication.
+I created this as a class because I noticed that some of the code was duplicated when I was creating the screens, so having this class allows me to reduce the duplication.
 
 <hr>
 
